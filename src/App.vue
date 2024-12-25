@@ -5,7 +5,7 @@
 
     <div class="flex flex-col items-bottom gap-2">
       <iframe
-        class="w-screen w-96"
+        class="w-screen md:w-96"
         src="https://www.youtube.com/embed/OUjprWAg1A8?autoplay=1&loop=1&controls=0&si=EjqfoYymDQhnzhwr"
         title="YouTube video player"
         frameborder="0"
@@ -141,11 +141,6 @@ export default {
   border-radius: 50%;
   opacity: 0.8;
   animation-fill-mode: forwards;
-}
-
-iframe {
-  width: 80%;
-  aspect-ratio: 16 / 9;
 }
 
 /* Responsive styles */
